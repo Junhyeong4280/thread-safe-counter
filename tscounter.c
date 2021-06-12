@@ -3,10 +3,10 @@
 #include <string.h>
 #include <unistd.h>
 #include <pthread.h>
-
+ 
 typedef struct __counter_t {
     int value;
-    pthread_mutex_t lock;
+    pthread_mutex_t lock ;
 } counter_t;
 
 unsigned int loop_cnt;
